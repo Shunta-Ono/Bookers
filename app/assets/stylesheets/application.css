@@ -13,3 +13,67 @@
  *= require_tree .
  *= require_self
  */
+* {
+  font-family: 'arial';
+}
+
+body {
+  margin: 33px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+p {
+  margin: 33px;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.success-message {
+  color: green;
+}
+
+label {
+  display: block;
+}
+
+.field, .actions{
+  margin-bottom: 10px;
+}
+
+.error-message {
+  width: 450px;
+  margin-bottom: 15px;
+  border: 2px solid red;
+}
+
+.error-message-lead {
+  background-color: red;
+  margin: 0;
+  padding: 5px 30px 5px 10px;
+  color: #ffffff;
+}
+
+.error-message-details {
+  padding: 30px 30px 30px 70px;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+div .field_with_errors {
+  padding: 2px;
+  display: table;
+  background-color: red;
+}
